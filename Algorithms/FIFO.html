@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Lugrasimo&family=Ysabeau+SC:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/6fbbbe32d8.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <a id="home" href="../main.html"><i class="fa-solid fa-house fa-xl"></i></a>
+    <span id="element"></span>
+    <div class="main-class">
+    <div class="inputs">
+    <input type="text" id="cap" value="" placeholder="Add number of pages">
+    <input type="text" id="pages" value="" placeholder="Add pages  (Ex: 1 2 3 4 2 3)">
+    <button onclick="display()">Show pages</button>
+    <label id="second" for="pages">Extra space other than the single space b/w the numbers is equivalent to Page No. 0</label>
+    </div>
+    <div id="container"></div>
+    <div id="hits-faults">
+    <h3 id="ph"></h3>
+    <h3 id="pf"></h3>
+    </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['First In First Out Page Replacement'],
+        typeSpeed: 300,
+        backspace: 300,
+        loop: true
+      });
+    </script>
+
+    <script src="FIFO.js"></script>
+</body>
+</html>
