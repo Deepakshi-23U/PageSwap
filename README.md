@@ -1,4 +1,4 @@
-# Page-Replacement
+# PageSwap
 
 This page replacement algorithm visualizer🔁 is developed using HTML, CSS, and JavaScript. It demonstrates the functioning of three prominent algorithms: First-In-First-Out (FIFO), Least Recently Used (LRU), and Most Recently Used (MRU).
 
